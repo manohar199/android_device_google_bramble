@@ -7,6 +7,9 @@
 # Inherit some common Lineage stuff.
 $(call inherit-product, vendor/custom/config/common_full_phone.mk)
 
+# Enable mainline checking
+PRODUCT_ENFORCE_ARTIFACT_PATH_REQUIREMENTS := relaxed
+
 # Inherit device configuration
 $(call inherit-product, device/google/bramble/aosp_bramble.mk)
 $(call inherit-product, device/google/redbull/lineage_common.mk)
