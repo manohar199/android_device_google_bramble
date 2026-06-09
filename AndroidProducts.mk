@@ -15,11 +15,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_bramble.mk \
-    $(LOCAL_DIR)/aosp_bramble_64.mk \
-    $(LOCAL_DIR)/aosp_bramble_hwasan.mk \
-    $(LOCAL_DIR)/lineage_bramble.mk
-
-COMMON_LUNCH_CHOICES := \
-    aosp_bramble-trunk_staging-userdebug \
-    lineage_bramble-trunk_staging-userdebug
+    $(LOCAL_DIR)/custom_bramble.mk 
