@@ -181,7 +181,3 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_PACKAGES += \
     NfcOverlayBramble
-
-# OTA Updater
-PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
-    lineage.updater.uri=https://raw.githubusercontent.com/manohar199/ota_bramble/main/bramble.json
