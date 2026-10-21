@@ -20,11 +20,19 @@ PRODUCT_NAME := lineage_bramble
 
 # Boot animation
 TARGET_SCREEN_HEIGHT := 2340
-TARGET_SCREEN_WIDTH := 1080
+TARGET_SCREEN_WIDTH := 1080# Maintainer name (underscores become spaces in the UI)
+AXION_MAINTAINER := Macho_man
+
+# Processor name (underscores become spaces)
+AXION_PROCESSOR := Snapdragon_765G
+
+
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     BuildDesc="bramble-user 14 UP1A.231105.001.B2 11260668 release-keys" \
     BuildFingerprint=google/bramble/bramble:14/UP1A.231105.001.B2/11260668:user/release-keys \
     DeviceProduct=bramble
+
+
 
 $(call inherit-product, vendor/google/bramble/bramble-vendor.mk)
