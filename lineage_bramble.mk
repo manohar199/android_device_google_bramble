@@ -20,7 +20,9 @@ PRODUCT_NAME := lineage_bramble
 
 # Boot animation
 TARGET_SCREEN_HEIGHT := 2340
-TARGET_SCREEN_WIDTH := 1080# Maintainer name (underscores become spaces in the UI)
+TARGET_SCREEN_WIDTH := 1080
+
+# Maintainer name (underscores become spaces in the UI)
 AXION_MAINTAINER := Macho_man
 
 # Processor name (underscores become spaces)
